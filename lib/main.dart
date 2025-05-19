@@ -1,5 +1,6 @@
 import 'package:fit_swim/app/app.dart';
 import 'package:fit_swim/app/theme/app_theme.dart';
+import 'package:fit_swim/features/login/presentation/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Fit Swim',
       theme: themeApp,
       debugShowCheckedModeBanner: false,
-      home: FitSwimApp(),
+      home: LoginScreen(),
     );
   }
 }
